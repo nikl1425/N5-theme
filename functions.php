@@ -26,6 +26,7 @@ add_action( 'after_setup_theme', 'custom_logo' );
 
 function nFive_theme_files() {
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
+	wp_enqueue_style( 'add_google_fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
     remove_action('wp_head', '_admin_bar_bump_cb');
 }
 add_action( 'wp_enqueue_scripts', 'nFive_theme_files' );
