@@ -1,5 +1,13 @@
-$body-color: red;
+@import "general";
+
+
+//Global Styles
+
+html {
+  height: 100%;
+}
 
 body {
-  color: $body-color;
+  height: 100vh;
+  margin: 0
 }

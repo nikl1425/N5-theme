@@ -5,7 +5,7 @@
     <title><?php echo the_title(); ?></title>
 </head>
 <body class="h-screen font-sans flex flex-col">
-    <div class=" border-b-2">
+    <div class="b-gray b-2-b">
         <nav class=" max-w-screen-xl mx-auto py-3">
             <div class=" flex justify-between">
                 <div class="shrink-0">

@@ -1,0 +1,9 @@
+@use "variables" as vars;
+
+.b-2-b {
+    border-bottom: 2px solid;
+}
+
+.b-gray {
+    border-color: vars.$gray-1;
+}

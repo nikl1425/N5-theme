@@ -1,6 +1,19 @@
 /*!*****************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./style/index.scss ***!
   \*****************************************************************************************************************************************************/
+.b-2-b {
+  border-bottom: 2px solid;
+}
+
+.b-gray {
+  border-color: #e2e8f0;
+}
+
+html {
+  height: 100%;
+}
+
 body {
-  color: red;
+  height: 100vh;
+  margin: 0;
 }
