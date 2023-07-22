@@ -9,6 +9,30 @@
   border-color: #e2e8f0;
 }
 
+.p-y-3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.m-x-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.m-w-screen-xl {
+  max-width: 1280px;
+}
+
 html {
   height: 100%;
 }

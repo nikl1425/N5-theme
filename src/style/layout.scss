@@ -1,0 +1,29 @@
+@use "variables" as vars;
+
+// Spacing
+.p-y-3 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.m-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Flex
+.flex-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+// Sizing
+.m-w-screen-xl {
+    max-width: vars.$break-xl;
+}
+
