@@ -1,9 +1,15 @@
 @use "variables" as vars;
 
 // Spacing
-.p-y-3 {
+.py-3 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+.px-4 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+
 }
 
 .m-x-auto {
@@ -22,8 +28,32 @@
     flex-direction: row;
 }
 
+.grow-1 {
+    flex-grow: 1;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.wrapper-flex-body {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
 // Sizing
 .m-w-screen-xl {
     max-width: vars.$break-xl;
 }
+
+// Placing
+.align-center {
+    align-items: center;
+}
+
 

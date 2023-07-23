@@ -1,5 +1,7 @@
+@use "variables" as vars;
 @import "general";
 @import "layout";
+
 
 //Global Styles
 
@@ -11,4 +13,42 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+}
+
+.menu-item {
+  font-weight: 400;
+  color: vars.$gray-2;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.custom-nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        padding-left: 1rem;
+      
+        a {
+          text-decoration: none;
+          color: vars.$gray-2;
+          font-weight: 500;
+
+          &:hover {
+            color: vars.$sky-5;
+          }
+        }
+      }
+
+      .current-menu-item {
+        a {
+          color: vars.$gray-6;
+        }
+      }
+    }
 }
